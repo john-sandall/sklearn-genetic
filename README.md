@@ -5,7 +5,14 @@ Genetic feature selection module for scikit-learn
 Genetic algorithms mimic the process of natural selection to search for optimal values of a function.
 
 ## Installation
+> :warning: **Install from this repo until fixes are deployed to PyPI**. Please references the following PRs for the latest information:
+> - https://github.com/manuel-calzolari/sklearn-genetic/pull/12
+> - https://github.com/manuel-calzolari/sklearn-genetic/pull/14
+```bash
+pip install git+https://github.com/john-sandall/sklearn-genetic
+```
 
+> :warning: **PyPI installation:** version 0.22 on PyPI is currently broken and may not work using recent versions of scikit-learn or Python.
 ```bash
 pip install sklearn-genetic
 ```
@@ -69,7 +76,7 @@ BibTeX entry:
 ```
 @misc{manuel_calzolari_2019_3348077,
   author       = {Manuel Calzolari},
-  title        = {{manuel-calzolari/sklearn-genetic: sklearn-genetic 
+  title        = {{manuel-calzolari/sklearn-genetic: sklearn-genetic
                    0.2}},
   month        = apr,
   year         = 2019,
